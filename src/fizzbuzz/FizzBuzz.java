@@ -5,9 +5,10 @@ public class FizzBuzz {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/**
-		 * This is a program that prints the numbers from 1 to 100.
-		 * But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. 
-		 * For numbers which are multiples of both three and five print “FizzBuzz”
+		 * This is a program that prints the numbers from 1 to 100. But for
+		 * multiples of three print “Fizz” instead of the number and for the
+		 * multiples of five print “Buzz”. For numbers which are multiples of
+		 * both three and five print “FizzBuzz”
 		 * 
 		 * @author Grace
 		 * 
@@ -19,7 +20,7 @@ public class FizzBuzz {
 				System.out.println("Fizz!");
 			}
 
-			//If the number is a multiple of 5, display "Buzz"
+			// If the number is a multiple of 5, display "Buzz"
 			else if (counter % 5 == 0 && counter % 3 != 0) {
 				System.out.println("Buzz!");
 
@@ -29,8 +30,8 @@ public class FizzBuzz {
 			else if (counter % 5 == 0 && counter % 3 == 0) {
 				System.out.println("FizzBuzz!");
 
-			}
-            // print the number if neither
+			}    
+			// print the number if neither
 			else {
 				System.out.println(counter);
 			}
