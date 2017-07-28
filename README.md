@@ -9,4 +9,5 @@ For the multiples of five print “Buzz”;
 For numbers which are multiples of both three and five, print “FizzBuzz”. 
 
 ***
-A new application "CopyCatFizzBuzz" was developed on July 27 2017.
+A new application "CopyCatFizzBuzz" was developed and added into this repo on July 27.  
+It is a good example of how to improve the code quality by shortening the conditions. 
